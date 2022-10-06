@@ -9,7 +9,7 @@ filelock==3.0.12
 gdown==3.13.0
 google-auth==1.34.0
 google-auth-oauthlib==0.4.5
-grpcio==1.36.1
+grpcio==1.38.1
 idna==3.2
 imageio==2.9.0
 ipykernel==5.3.4
