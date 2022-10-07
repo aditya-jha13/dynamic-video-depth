@@ -32,9 +32,9 @@ model = MidasNet(midas_pretrain_path, non_negative=True, resize=[256, 512], norm
 model = model.eval().cuda()
 
 
-data_list_root = "./datafiles/DAVIS/JPEGImages/1080p"
+data_list_root = "./datafiles/DAVIS/JPEGImages/Full-Resolution"
 camera_path = "./datafiles/DAVIS/triangulation"
-mask_path = './datafiles/DAVIS/Annotations/1080p'
+mask_path = './datafiles/DAVIS/Annotations/Full-Resolution'
 outpath = './datafiles/davis_processed/frames_midas'
 
 track_names = ['train', 'dog']
