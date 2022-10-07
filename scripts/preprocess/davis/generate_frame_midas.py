@@ -101,7 +101,7 @@ for track_id in track_ids:
         mvs_depths.append(depth)
         pred_depths.append(pred_depth)
         pts_list.append(pts)
-    print(img.shape)
+#     print(img.shape)
 
     print('calculating scale')
     scales = []
